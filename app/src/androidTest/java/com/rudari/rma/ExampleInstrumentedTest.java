@@ -1,4 +1,4 @@
-package com.rudari.singidunum.rma;
+package com.rudari.rma;
 
 import android.content.Context;
 
