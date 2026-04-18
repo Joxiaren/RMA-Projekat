@@ -1,4 +1,4 @@
-package rs.ac.singidunum.rmaprojekat.fragmenti;
+package com.rudari.rma.fragmenti;
 
 import android.os.Bundle;
 
@@ -8,7 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import rs.ac.singidunum.rmaprojekat.R;
+import com.rudari.rma.R;
+
 
 /**
  * A simple {@link Fragment} subclass.

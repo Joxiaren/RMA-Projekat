@@ -1,8 +1,6 @@
-package rs.ac.singidunum.rmaprojekat;
+package com.rudari.rma;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.MenuItem;
 
 import androidx.activity.EdgeToEdge;
@@ -18,9 +16,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-import rs.ac.singidunum.rmaprojekat.fragmenti.PrijavaIspitaFragment;
-import rs.ac.singidunum.rmaprojekat.fragmenti.ProfilFragment;
-import rs.ac.singidunum.rmaprojekat.fragmenti.RezulatiIspitaFragment;
+import com.rudari.rma.fragmenti.PrijavaIspitaFragment;
+import com.rudari.rma.fragmenti.ProfilFragment;
+import com.rudari.rma.fragmenti.RezulatiIspitaFragment;
 
 public class MainStudentScreen extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 

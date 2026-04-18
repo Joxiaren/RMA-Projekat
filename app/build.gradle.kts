@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "rs.ac.singidunum.rmaprojekat"
+    namespace = "com.rudari.rma"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "rs.ac.singidunum.rmaprojekat"
+        applicationId = "com.rudari.rma"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
