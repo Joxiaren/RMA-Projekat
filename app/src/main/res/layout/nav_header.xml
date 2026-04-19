@@ -10,18 +10,19 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
+        android:id="@+id/imageStudentProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <TextView
-        android:id="@+id/textViewStudentIme"
+        android:id="@+id/textViewStudentName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Vase ime: " />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textViewStudentEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Vas email:" />

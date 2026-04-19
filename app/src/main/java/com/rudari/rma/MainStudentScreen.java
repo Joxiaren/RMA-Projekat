@@ -16,9 +16,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-import com.rudari.rma.fragmenti.PrijavaIspitaFragment;
-import com.rudari.rma.fragmenti.ProfilFragment;
-import com.rudari.rma.fragmenti.RezulatiIspitaFragment;
+import com.rudari.rma.fragmenti.ExamRegistrationFragment;
+import com.rudari.rma.fragmenti.StudentProfileFragment;
+import com.rudari.rma.fragmenti.ExamResultsFragment;
 
 public class MainStudentScreen extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -52,12 +52,12 @@ public class MainStudentScreen extends AppCompatActivity implements NavigationVi
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
         int id = menuItem.getItemId();
-        if (id == R.id.navProfil){
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ProfilFragment()).commit();
-        } else if (id == R.id.prijavaIspita) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new PrijavaIspitaFragment()).commit();
-        }else {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new RezulatiIspitaFragment()).commit();
+        if (id == R.id.studentProfile){
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new StudentProfileFragment()).commit();
+        } else if (id == R.id.examRegistration) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ExamRegistrationFragment()).commit();
+        }else if(id == R.id.examRegistration){
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ExamResultsFragment()).commit();
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView inputEmail;
 
-    private TextView inputLozinka;
+    private TextView inputPassword;
 
-    private Button buttonUlogujMe;
+    private Button buttonLogin;
 
 
     @Override
@@ -37,18 +37,18 @@ public class MainActivity extends AppCompatActivity {
 
         inputEmail = (TextView) findViewById(R.id.inputEmail);
 
-        inputLozinka = (TextView) findViewById(R.id.inputLozinka);
+        inputPassword = (TextView) findViewById(R.id.inputPassword);
 
-        buttonUlogujMe = (Button) findViewById(R.id.buttonUlogujMe);
+        buttonLogin = (Button) findViewById(R.id.buttonLogin);
 
 
-        buttonUlogujMe.setOnClickListener(new View.OnClickListener() {
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 String email = inputEmail.getText().toString();
 
-                String lozinka = inputLozinka.getText().toString();
+                String lozinka = inputPassword.getText().toString();
 
 
                 if (email.equals("1") && lozinka.equals("1")) {

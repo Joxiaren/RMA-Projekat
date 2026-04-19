@@ -7,15 +7,15 @@
         android:checkableBehavior="single">
 
         <item
-            android:id="@+id/navProfil"
+            android:id="@+id/studentProfile"
             android:icon="@color/design_default_color_primary"
             android:title="Profil"/>
         <item
-            android:id="@+id/prijavaIspita"
+            android:id="@+id/examRegistration"
             android:icon="@color/design_default_color_primary"
             android:title="Prijava ispita"/>
         <item
-            android:id="@+id/rezultatiIspita"
+            android:id="@+id/examResult"
             android:icon="@color/design_default_color_primary"
             android:title="Rezultati ispita"/>
 
